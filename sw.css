@@ -1,0 +1,100 @@
+
+      html,
+      body {
+        position: relative;
+        height: 100%;
+     background-color: rgb(70, 70, 70);
+      }
+  
+    
+      .swiper-container {
+        width: 100%;
+        height: 25%;
+      }
+   
+      .swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        background: #fff;
+  
+        overflow:hidden;
+
+        
+      }
+      
+      .slide-inner {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        left: 0;
+        top: 0;
+        background-size: cover;
+        background-position: center;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        align-items: center;
+        color:#fff;
+    
+      }
+      .local{ 
+    
+        display: flex;
+        height: 64px;
+        border-radius: 8px;
+        margin: 4px 12px;
+        padding: 0;
+       background-color: #fff;
+      
+        
+    }
+    /* flex：【num】 作用于子级元素 */
+    .local li{
+        flex:1;
+        /*  画了5个 li ，每个就是1/5  */
+        margin: 0px 0px;
+        padding:0px 0px;
+       
+    }
+    
+    ul{
+   
+        list-style: none;
+        text-decoration: none;
+        margin: 0px 0px;
+        padding:0px 0px;
+    
+    }
+    
+    
+    /* flex-direction ，a作为父级把 子级的元素 改垂直  */
+    /* align-items a当作父级，让 子级元素竖着串成一条线 */
+    .local a{
+    
+        display: flex;
+    /* 位置 */
+        flex-direction: column;
+        align-items: center;
+    /* 字体高度 */
+        line-height: 20px;
+      /* 样式 */
+        text-decoration: none;
+        color: black;  
+    }
+    
+    /* a里的子级元素之一 */
+    .local a img{
+        height: 40px;
+        width: 40px;
+        margin-top: 5px;
+    
+    }
+    
