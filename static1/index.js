@@ -346,7 +346,7 @@ function shareText(score) {
     if (score <= 30) return '你个虚比连60个都没有';
     if (score <= 60) return '太菜了吧连100个都没有';
     if (score <= 100) return '超过一百个告诉你我微信';
-    if (score <= 150) return '傻逼';
+    if (score <= 150) return '学姐微信是：Yil-000-';
     return '你就是学姐本人？';
 }
 
